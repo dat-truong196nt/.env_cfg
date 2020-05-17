@@ -9,6 +9,7 @@ sudo apt-get install xclip
 # Install fuzy finder
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
+find * -type f | fzf > selected
 
 # Tmux
 sudo apt-get tmux
@@ -40,6 +41,18 @@ https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/Hack/Regular/c
 
 # Zsh autosuggestion
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+# ------------------------------------------------------------------------------------------------------------------------------------------------ #
+
+
+
+# ------------------------------------------------------------------------------------------------------------------------------------------------ #
+# Vim-Plugins
+
+# Vim-plug plugins manager
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+
 # ------------------------------------------------------------------------------------------------------------------------------------------------ #
 
 

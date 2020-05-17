@@ -38,7 +38,7 @@ POWERLEVEL9K_MODE="nerdfont-complete"
 
 # ------------------------------------------------------------ #
 # Auto suggestion
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=5' # Color
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=239' # Color
 bindkey '^ ' autosuggest-accept # Accept auto suggestion with Crlt + Space Key
 # ------------------------------------------------------------ #
 
