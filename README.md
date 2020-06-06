@@ -41,6 +41,7 @@ https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/Hack/Regular/c
 
 # Zsh autosuggestion
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+tmux source ~/.tmux.conf
 # ------------------------------------------------------------------------------------------------------------------------------------------------ #
 
 
@@ -51,9 +52,14 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 # Vim-plug plugins manager
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+# ------------------------------------------------------------------------------------------------------------------------------------------------ #
+
 
 
 # ------------------------------------------------------------------------------------------------------------------------------------------------ #
+# Switch CapsLock vs ESC
+sudo apt-get install gnome-tweak-tool
+# Goto tweak app -> keyboard & mouse -> Additional Layout Options -> Caps Lock Behavior -> Swap ESC and Caps Lock
 
 
 
