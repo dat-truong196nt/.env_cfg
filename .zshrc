@@ -26,6 +26,11 @@ POWERLEVEL9K_MODE="nerdfont-complete"
 # ------------------------------------------------------------ #
 
 
+# ------------------------------------------------------------ #
+# Jump init config
+eval "$(jump shell)"
+# ------------------------------------------------------------ #
+
 
 # ------------------------------------------------------------ #
 # Auto suggestion
@@ -45,3 +50,4 @@ bindkey '^ ' autosuggest-accept # Accept auto suggestion with Crlt + Space Key
 source $ZSH/oh-my-zsh.sh
 
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null 
+export PATH=$PATH:/usr/local/bin/
