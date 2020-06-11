@@ -4,7 +4,6 @@ export ZSH=$HOME/.oh-my-zsh
 # ------------------------------------------------------------ #
 
 
-
 # ------------------------------------------------------------ #
 # Plugins install
 plugins=(git zsh-autosuggestions)
@@ -15,7 +14,7 @@ plugins=(git zsh-autosuggestions)
 # ------------------------------------------------------------ #
 # Dracula Themes 
 ZSH_THEME="dracula"
-
+eval `dircolors ~/.dir_colors/dircolors`
 # ------------------------------------------------------------ #
 
 
